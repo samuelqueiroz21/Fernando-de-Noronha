@@ -1,6 +1,6 @@
 import { Text, View, StyleSheet } from 'react-native';
 
-export function Subtitulo() {
+export function Subtitle() {
   return (
     <View style={styles.container}>
       <Text style={styles.subtitulo}>Explore as Maravilhosas Praias</Text>

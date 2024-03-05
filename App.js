@@ -1,7 +1,7 @@
-import {Text, SafeAreaView, StyleSheet } from 'react-native';
+import { SafeAreaView} from 'react-native';
 
 import {Title} from './components/Title'
-import {Subtitulo} from './components/Subtitle'
+import {Subtitle} from './components/Subtitle'
 import {Button} from './components/Button'
 import {Footer} from './components/Footer'
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <SafeAreaView>
       <Title/>
       
-      <Subtitulo/>
+      <Subtitle/>
 
       <Button/>
 
